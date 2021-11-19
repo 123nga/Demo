@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".themChuong">
+
+    <RelativeLayout
+        android:background="#FFC107"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:src="@drawable/arrow_back"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/add"/>
+
+    <EditText
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Đặt tiêu đề cho truyện của bạn"
+      />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        android:background="@null"
+        android:hint="Nhấp vào đây để bắt đầu viết "
+        android:textSize="20dp" />
+</LinearLayout>

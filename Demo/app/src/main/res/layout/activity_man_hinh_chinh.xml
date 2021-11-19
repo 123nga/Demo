@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    tools:context=".ManHinhChinh"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="3000dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="3000dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/viewpagerSlider1"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:contextClickable="false">
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/viewpagerSlider"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"></androidx.viewpager.widget.ViewPager>
+
+                <me.relex.circleindicator.CircleIndicator
+                    android:id="@+id/circle_indicatorslider"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="170dp"
+                    android:layout_marginTop="140dp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:contextClickable="false"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="0.5"
+                    android:text="Thể loại"
+                    android:textColor="#DE7A22"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@id/img_menu"
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/viewpagerSlider"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:src="@drawable/bian">
+
+                </ImageView>
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/viewpagerSlider"
+                    android:layout_marginTop="3dp"
+                    android:src="@drawable/tieuthuyet">
+
+                </ImageView>
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/viewpagerSlider"
+                    android:layout_marginTop="3dp"
+                    android:src="@drawable/kinhdi">
+
+                </ImageView>
+                <ImageView
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/viewpagerSlider"
+                    android:layout_marginTop="3dp"
+                    android:src="@drawable/cotich">
+
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tv_menu"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:layout_alignBottom="@+id/img_menu"
+                android:layout_marginTop="5dp"
+                android:contextClickable="false"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:scaleType="fitCenter"
+                    android:text="Bí ẩn"
+                    android:textColor="#DE7A22"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginLeft="35dp"
+                    android:text="Tiểu thuyết"
+                    android:textColor="#DE7A22"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginLeft="55dp"
+                    android:text="Kinh dị"
+                    android:textColor="#DE7A22"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginLeft="45dp"
+                    android:text="Cổ tích "
+                    android:textColor="#DE7A22"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_menu"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="0.5"
+                    android:contextClickable="false"
+                    android:text="Đề xuất"
+                    android:textColor="#DE7A22"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <SearchView
+                    android:id="@+id/search_view"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:iconifiedByDefault="false"
+                    android:padding="2dp"
+                    android:queryHint="Search...." />
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="397dp"
+                android:layout_below="@+id/search"
+                android:layout_marginTop="9dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recycler"
+                        android:layout_width="match_parent"
+                        android:layout_height="500dp" />
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#20948B"
+        app:itemIconTint="@color/color_bottom_navigation"
+        app:itemTextColor="@color/color_bottom_navigation"
+        app:menu="@menu/menu_bottom_navigation" />
+
+
+
+</RelativeLayout>

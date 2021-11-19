@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangNhap"
+    android:orientation="vertical">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textStyle="bold"
+      android:textSize="30dp"
+      android:gravity="center"
+      android:text="Sách Hay"
+      android:textColor="@color/text"/>
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="30dp"
+      android:gravity="center"
+      android:text="Đọc và viết câu chuyện của riêng bạn" />
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="169dp"
+      android:layout_margin="20dp"
+      android:layout_marginTop="30dp"
+      android:background="@drawable/vien2"
+      android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edt_usernameLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="70dp"
+        android:hint="Username" />
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/edt_passwordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Password" />
+
+  </LinearLayout>
+
+  <CheckBox
+      android:id="@+id/checkBox"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Đồng ý với các điều khoản "
+      android:layout_marginLeft="40dp"
+      android:layout_marginRight="40dp"/>
+
+  <Button
+      android:id="@+id/btn_go_home1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginRight="20dp"
+      android:background="@drawable/vien3"
+      android:text="Start Reading"
+
+      app:backgroundTint="@color/buttom" />
+
+  <LinearLayout
+
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="80dp"
+      android:layout_marginLeft="80dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="30dp"
+      android:layout_marginRight="30dp"
+      android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="49dp"
+        android:layout_height="38dp"
+        android:layout_weight="0.5"
+        android:textColor="#FF5722"
+        android:text="Chưa có tài khoản ?"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tvSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:textColor="#FF5722"
+        android:text="Đăng Ký"
+        android:textSize="20dp" />
+
+  </LinearLayout>
+</LinearLayout>

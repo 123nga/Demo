@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Doc">
+
+    <RelativeLayout
+        android:background="#FFC107"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/update_bt"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:src="@drawable/add" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="171dp"
+            android:layout_height="242dp">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="171dp"
+                android:layout_height="242dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:foregroundGravity="center" />
+
+            <TextView
+                android:id="@+id/tv_giasp"
+                android:layout_width="151dp"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="2dp"
+                android:background="#A8000000"
+                android:gravity="center"
+                android:text="123Chapter"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="263dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_tensp"
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Tên"
+                android:textColor="#DE7A22"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#DE7A22"
+        android:textSize="30dp"
+        android:text="Nội dung "
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_motasp"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:layout_marginTop="20dp"
+        android:text="Chương 1"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:text="Chương 2 "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:text="Chương 3 "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/addvaogio"
+        android:layout_width="147dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="330dp"
+        android:background="@drawable/vien2"
+        android:backgroundTint="#F4CC70"
+        android:text="Xuất bản"
+        app:backgroundTint="#F33F06" />
+</LinearLayout>

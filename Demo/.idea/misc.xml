@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Demo/app/src/main/res/drawable-v24/vien.xml" value="0.17314814814814813" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Demo/app/src/main/res/drawable-v24/vien2.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Demo/app/src/main/res/drawable-v24/vien3.xml" value="0.17314814814814813" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Demo/app/src/main/res/drawable-v24/vien_doan_thang.xml" value="0.17314814814814813" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Demo/app/src/main/res/layout/activity_dang_ky.xml" value="0.13425925925925927" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Demo/app/src/main/res/layout/activity_dang_nhap.xml" value="0.13425925925925927" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Demo/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Demo/app/src/main/res/layout/activity_main2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Demo/app/src/main/res/layout/activity_main3.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Demo/app/src/main/res/layout/activity_main4.xml" value="0.13425925925925927" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Demo/app/src/main/res/layout/activity_man_hinh_chinh.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Demo/app/src/main/res/layout/color_bottom_nav.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Demo/app/src/main/res/layout/photo2_item.xml" value="0.13425925925925927" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Demo/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Demo/app/src/main/res/menu/toolbar.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
